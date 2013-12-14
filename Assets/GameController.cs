@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void SetupMixpanel() {
-		Mixpanel.Token = "f792f223b1632465191da18a668c2ea3";
+		Mixpanel.Token = "MIXPANEL TOKEN GOES HERE";
 
 		Mixpanel.SuperProperties.Add("Platform", Application.platform.ToString());
 		Mixpanel.SuperProperties.Add("Quality", QualitySettings.names[QualitySettings.GetQualityLevel()]);
