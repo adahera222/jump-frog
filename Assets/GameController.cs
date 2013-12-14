@@ -3,7 +3,6 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 	public bool PlayerHasPreviouslyDied() {
-		return false;
 		return PlayerPrefs.HasKey ("PlayerHasPreviouslyDied");
 	}
 
